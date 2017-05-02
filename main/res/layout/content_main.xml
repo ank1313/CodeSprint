@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.codesprint2.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:gravity="center|center_horizontal"
+        android:text="Tower Of Hanoi"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/left1"
+        android:layout_below="@id/title"
+        android:layout_marginTop="10dp"
+        android:text = "1"
+        android:gravity="bottom|center"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/left2"
+        android:layout_below="@id/left1"
+        android:layout_marginTop="10dp"
+        android:text = "2"
+        android:gravity="bottom|center"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/left3"
+        android:layout_below="@id/left2"
+        android:layout_marginTop="10dp"
+        android:text = "3"
+        android:gravity="bottom|center"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/left4"
+        android:layout_below="@id/left3"
+        android:layout_marginTop="10dp"
+        android:text = "4"
+        android:gravity="bottom|center"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/left5"
+        android:layout_below="@id/left4"
+        android:layout_marginTop="10dp"
+        android:text = "5"
+        android:gravity="bottom|center"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/middle1"
+        android:layout_below="@id/title"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/left1"
+        android:gravity="bottom|center"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/middle2"
+        android:layout_below="@id/middle1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/left2"
+        android:gravity="bottom|center"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/middle3"
+        android:layout_below="@id/middle2"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/left3"
+        android:gravity="bottom|center"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/middle4"
+        android:layout_below="@id/middle3"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/left4"
+        android:gravity="bottom|center"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/middle5"
+        android:layout_below="@id/middle4"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/left5"
+        android:gravity="bottom|center"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/right1"
+        android:layout_below="@id/title"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/middle1"
+        android:gravity="bottom|center"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/right2"
+        android:layout_below="@id/right1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/middle2"
+        android:gravity="bottom|center"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/right3"
+        android:layout_below="@id/right2"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/middle3"
+        android:gravity="bottom|center"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/right4"
+        android:layout_below="@id/right3"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/middle4"
+        android:gravity="bottom|center"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/right5"
+        android:layout_below="@id/right4"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/middle5"
+        android:gravity="bottom|center"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playerturn"
+        android:text = "Player1 turn"
+        android:layout_toRightOf="@id/title"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "A to B"
+        android:id="@+id/atob"
+        android:layout_below="@id/left5"
+        android:onClick="atob"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "B to C"
+        android:id="@+id/btoc"
+        android:layout_toRightOf="@id/atob"
+        android:layout_below="@id/middle5"
+        android:onClick="btoc"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "C to A"
+        android:id="@+id/ctoa"
+        android:layout_toRightOf="@id/btoc"
+        android:layout_below="@id/right5"
+        android:onClick="ctoa"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "B to A"
+        android:id="@+id/btoa"
+        android:layout_below="@id/atob"
+        android:onClick="btoa"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "C to B"
+        android:id="@+id/ctob"
+        android:layout_toRightOf="@id/atob"
+        android:layout_below="@id/btoc"
+        android:onClick="ctob"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "A to C"
+        android:id="@+id/atoc"
+        android:layout_toRightOf="@id/ctob"
+        android:layout_below="@id/ctoa"
+        android:onClick="atoc"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/p1score" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/p2score"
+        android:layout_below="@id/p1score"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="48dp"
+        android:text="Rules:1.Move one number at a time.\n2.A higher number can't be kept on top of lower number.\n3.Move all numbers from column 1 to column 3 to win the game!"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RESTART"
+        android:text="RESTART"
+        android:onClick="restart"
+        android:textSize="10sp"
+        android:layout_toEndOf="@+id/ctoa"
+        android:layout_alignBottom="@+id/atoc"
+        android:layout_alignStart="@+id/playerturn"
+        android:layout_below="@+id/right5" />
+
+</RelativeLayout>
